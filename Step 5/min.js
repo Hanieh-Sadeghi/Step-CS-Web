@@ -1,27 +1,90 @@
-function runCode(codeId) {
-    let codeElement = document.getElementById(codeId);
-    let code = codeElement.textContent.trim();
+const canvas = document.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+const brushWidth = document.querySelector("#brush-width");
+const brushColor = document.querySelector("#color-picker");
+const saveColor = ["#ffffff", "#ffffff", "#ffffff", "#ffffff", "#ffffff"];
+const saveColorsBtns = document.getElementsByClassName("saved-color__btn");
+const brush = document.querySelector(".brush");
+const eraser = document.querySelector(".eraser");
+const clearBtn = document.querySelector(".clear");
+const saveBtn = document.querySelector(".save");
 
-    console.clear();
-    try {
-        let fn = new Function(code);
-        fn();
-    } catch (error) {
-        console.error(error);
-    }
+let isDrawing = false;
+let currenWidth = 5;
+let currenColor = "";
+
+window.addEventListener("load", () => {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+});
+
+function starDraw() {
+    isDrawing = true;
+    ctx.beginPath();
+    ctx.lineWidth = currenWidth;
 }
 
-let designModeOn = false;
-
-document.addEventListener("keydown", function (event) {
-    if (event.key === "d") {
-        designModeOn = !designModeOn;
-        if (designModeOn) {
-            document.designMode = "on";
-            document.body.style.cursor = "crosshair";
-        } else {
-            document.designMode = "off";
-            document.body.style.cursor = "auto";
-        }
+function drawing(e) {
+    if (!isDrawing) {
+        return;
     }
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.strokeStyle = `${currenColor}`;
+    ctx.stroke();
+}
+
+function endDraw() {
+    isDrawing = false;
+}
+canvas.addEventListener("mousedown", starDraw);
+canvas.addEventListener("mousemove", drawing);
+canvas.addEventListener("mouseup", endDraw);
+
+brushWidth.addEventListener("change", () => {
+    currenWidth = brushWidth.value;
+});
+
+brushColor.addEventListener("change", () => {
+    currenColor = brushColor.value;
+    saveColor.pop();
+    saveColor.unshift(brushColor.value);
+    for (let i = 0; i < 5; i++) {
+        try {
+            saveColorsBtns[i].style.background = saveColor[i];
+        } catch (error) {}
+    }
+});
+
+for (let i = 0; i < 5; i++) {
+    saveColorsBtns[i].addEventListener("click", () => {
+        console.log(saveColor[i]);
+        brushColor.value = saveColor[i];
+        currenColor = saveColor[i];
+    });
+}
+
+eraser.addEventListener("click", () => {
+    eraser.classList.add("active");
+    brush.classList.remove("active");
+    currenColor = "white";
+});
+
+brush.addEventListener("click", () => {
+    brush.classList.add("active");
+    eraser.classList.remove("active");
+    currenColor = brushColor.value;
+});
+
+clearBtn.addEventListener("click", () => {
+    ctx.fillStyle = "white";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+});
+
+saveBtn.addEventListener("click", () => {
+    let link = document.createElement("a");
+    link.download = "Art-Canvas.jpg";
+    link.href = canvas.toDataURL();
+    link.click();
 });
