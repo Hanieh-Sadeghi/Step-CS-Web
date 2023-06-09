@@ -2,8 +2,6 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 const brushWidth = document.querySelector("#brush-width");
 const brushColor = document.querySelector("#color-picker");
-const saveColor = ["#ffffff", "#ffffff", "#ffffff", "#ffffff", "#ffffff"];
-const saveColorsBtns = document.getElementsByClassName("saved-color__btn");
 const brush = document.querySelector(".brush");
 const eraser = document.querySelector(".eraser");
 const clearBtn = document.querySelector(".clear");
@@ -48,22 +46,8 @@ brushWidth.addEventListener("change", () => {
 
 brushColor.addEventListener("change", () => {
     currenColor = brushColor.value;
-    saveColor.pop();
-    saveColor.unshift(brushColor.value);
-    for (let i = 0; i < 5; i++) {
-        try {
-            saveColorsBtns[i].style.background = saveColor[i];
-        } catch (error) {}
-    }
+   
 });
-
-for (let i = 0; i < 5; i++) {
-    saveColorsBtns[i].addEventListener("click", () => {
-        console.log(saveColor[i]);
-        brushColor.value = saveColor[i];
-        currenColor = saveColor[i];
-    });
-}
 
 eraser.addEventListener("click", () => {
     eraser.classList.add("active");
