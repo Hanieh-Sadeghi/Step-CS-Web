@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,16 +14,13 @@
             <div class="code-container">
                 <code>
                     <pre id="code-variables" style="font-size: 20px">
-                        
-                        </pre
-                    >
+                       <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+                        </pre>
                 </code>
             </div>
-            <button class="run-btn" onclick="runCode('code-variables')">
-                Run
-            </button>
+            <button class="run-btn" onclick="runCode('code-variables')"> Run</button>
         </div>
     </div>
-
+    <script src="min.js"></script>
 </body>
 </html>
