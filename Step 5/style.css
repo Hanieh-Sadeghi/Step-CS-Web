@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(172, 116, 251);
+    background: #CBB279;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     height: 500px;
     background: #fff;
     border-radius: 15px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: #537188 0px 2px 8px 0px;
 }
 
 .tools-area {
@@ -40,11 +40,11 @@ body {
 }
 
 #color-picker {
-    border-radius: 50%;
+    border-radius: 10%;
     overflow: hidden;
-    width: 20px;
+    width: 37px;
     height: 20px;
-    outline: 1px solid rgb(0, 0, 0);
+    outline: 1px solid rgb(74, 74, 74);
     outline-offset: -1px;
 }
 
@@ -84,12 +84,12 @@ i {
 }
 
 .buttons .save {
-    background: rgb(172, 116, 251);
+    background: #537188;
     color: #fff;
 }
 
 .clear:hover {
-    background-color: lightgray;
+    background-color:#E1D4BB;
 }
 
 .draw-area canvas {
@@ -99,22 +99,5 @@ i {
 }
 
 .active {
-    color: rgb(172, 116, 251);
-}
-
-#saved-colors {
-    width: 130px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#saved-colors div {
-    border: 1px solid rgb(0, 0, 0);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 1px black;
+    color: #537188;
 }
