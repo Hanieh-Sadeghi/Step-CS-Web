@@ -1,10 +1,11 @@
-const password = ['123' ,'444','555'];
+const password = ['123' ,'444','555','387','999'];
 pass = prompt('please enter password');
 
 for (let i = 0; i < password.length; i++){
     if (pass == password [i]){
         console.log('yes yes');
-    }else if (pass != passwora[i]){
+        break;
+    }else if (pass != passwora[i] && i == 2 ){
         console.log('no no');
     }
 }
