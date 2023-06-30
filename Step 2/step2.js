@@ -5,7 +5,7 @@ for (let i = 0; i < password.length; i++){
     if (pass == password [i]){
         console.log('yes yes');
         break;
-    }else if (pass != passwora[i] && i == 2 ){
+    }else if (pass != passwora[i] && i == password.length-1 ){
         console.log('no no');
     }
 }
