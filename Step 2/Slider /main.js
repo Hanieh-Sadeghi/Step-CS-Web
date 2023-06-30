@@ -1,6 +1,6 @@
 var slideIndex = 0;
         ShowSlides();
-        function ShowSlides() {
+    function ShowSlides() {
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
@@ -25,4 +25,4 @@ var slideIndex = 0;
             dots[slideIndex -1].className +=" active";
 
             setTimeout(ShowSlides,2000);
-        }
+}
