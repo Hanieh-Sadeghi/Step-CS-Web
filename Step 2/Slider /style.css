@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
@@ -15,9 +16,12 @@ img {
 }
 
 .slideshow-container {
+  border: 1px solid rgb(0, 255, 13);
   max-width: 1000px;
   position: relative;
   margin: auto;
+  height: 100px;
+  
 }
 
 .text {
