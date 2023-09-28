@@ -20,13 +20,19 @@ const db = [
   {
     id: 3,
     city: "US",
-    temp: "33",
+    temp: "20",
+    status: "clear",
+  },
+  {
+    id: 4,
+    city: "uk",
+    temp: "25",
     status: "clear",
   },
 ];
 
 app.get("/", function (req, res) {
-  res.send(result);
+  res.send(db);
 });
 
 //CRUD  Create , Read , Update , Delete
@@ -36,6 +42,7 @@ app.post("/", function (req, res) {
   const data = req.body;
   db.push(data);
   res.send("POST API");
+  console.log(req.body)
 });
 
 // Read
@@ -47,7 +54,7 @@ app.get("/", function (req, res) {
 app.put("/", function (req, res) {
   //   console.log(req.body.id);
   db.forEach((item) => {
-    if ((item.id = req.body.id)) {
+    if ((item.id == req.body.id)) {
       item.city = req.body.city;
       item.temp = req.body.temp;
       item.status = req.body.status;
@@ -60,14 +67,15 @@ app.put("/", function (req, res) {
 app.delete("/", function (req, res) {
   db.forEach((item) => {
     if (item.id == req.body.id) {
+      console.log(req.body.id)
       let index = db.indexOf(item);
       db.slice(index, 1);
-      res.json(db);
+      console.log(item)
     }
   });
+  res.json(db);
 });
 
 app.listen(PORT, function (req, res) {
-  if (err) console.log(err);
   console.log("server listening on PORT", PORT);
 });
