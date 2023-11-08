@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                cursor: default;
+            }
+
+            ::selection {
+                background: transparent;
+            }
+
+            body {
+                width: 100%;
+                height: 100vh;
+                background: linear-gradient(rgb(0, 98, 255), rgb(0, 3, 180));
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            h1 {
+                font-size: 50px;
+                position: absolute;
+                top: 45px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                letter-spacing: 2px;
+                text-shadow: -2px 0 rgba(89, 255, 0, 0.2),
+                    2px 0 rgba(255, 0, 0, 0.3);
+            }
+
+            #login-form {
+                width: 400px;
+                background: white;
+                font-size: 25px;
+                border-radius: 5px;
+                padding: 15px;
+                line-height: 35px;
+                box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+            }
+            #login-form hr {
+                margin: 10px 0;
+            }
+            #login-form label {
+                font-size: 28px;
+                font-weight: 600;
+                padding-left: 5px;
+            }
+            #login-form input {
+                font-size: 20px;
+                padding: 4px 5px;
+                margin: 8px 0 20px;
+                margin-left: 5px;
+                width: 361px;
+                border-radius: 2px;
+                transition: background 0.2s;
+                cursor: text;
+            }
+            #login-form input:focus {
+                background: rgb(200, 200, 255);
+            }
+            #login-form .submit-btn {
+                background: rgba(69, 69, 255, 0.659);
+                padding: 10px;
+                margin-top: 20px;
+                font-size: 25px;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+            }
+            #login-form .submit-btn:hover {
+                background-color: rgba(51, 51, 255, 0.659);
+            }
+            #login-form .submit-btn:active {
+                background: rgba(69, 69, 255, 0.659);
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5),
+                    inset 0 0 3px rgba(0, 0, 0, 0.5);
+                transform: translate(0, 1px);
+            }
+        </style>
+
+        <h1>Step 4</h1>
+        <form id="login-form">
+            <p>Login</p>
+            <hr />
+            <label for="username">Username:</label>
+            <span>&nbsp;</span>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                autocomplete="off"
+                required
+                autofocus
+            />
+            <br />
+            <label for="password">Password:</label>
+            <span>&nbsp;</span>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                autocomplete="off"
+                required
+            />
+            <br />
+            <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+        <!-- <script src="min.js"></script> -->
+        <script src="app.js"></script>
+        <!-- <script src="nnn.js"></script> -->
+    </body>
+</html>
