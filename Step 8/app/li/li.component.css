@@ -1,0 +1,31 @@
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 440px;
+    height: 59px;
+    padding: 15px ;
+    border: 2px solid rgb(0, 102, 204);
+    border-radius: 10px;
+}
+
+#task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 22px;
+}
+
+#edit {
+    font-size:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45px;
+    height: 22px;
+} 
+
+:host {
+    width: 100%;
+}

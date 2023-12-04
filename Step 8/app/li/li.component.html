@@ -1,0 +1,15 @@
+<li> 
+
+  <div id="task">
+
+    <input (click)="test(checkBox.checked)" type="checkbox" #checkBox/>
+
+    <span>{{task}}</span>
+
+  </div>
+  
+  <div id="edit">
+    <i (click)="editTask('hanieh')" class="fa fa-pencil"></i>
+    <i (click)="deleteTask()" class="fa fa-trash-o" style="color: rgb(0, 102, 204);"></i>
+  </div>
+</li>
