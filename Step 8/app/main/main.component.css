@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 501px;
+    padding: 0 28px;
+}
