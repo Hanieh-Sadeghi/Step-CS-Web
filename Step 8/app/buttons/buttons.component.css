@@ -1,0 +1,51 @@
+form input[type=submit] {
+    color: #fff;
+    background: rgb(0, 102, 204);
+    font-size: 15px;
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+#buttons  {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#buttons input {
+    width: 70px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#login {
+    border: 200px;
+    background-color: #8ab1db;
+    color: #fff;
+}
+
+#signup {
+    background-color: rgb(51, 102, 153);
+}
+
+#downloadButton {
+    background-color: rgb(51, 102, 153);
+}
+
+#uploadButton {
+    background-color: rgb(51, 102, 153);
+}
+
+#logout {
+    background-color: #1e3f62;
+    color: white;
+}
+
+#addButton {
+    cursor: pointer;
+}
+
