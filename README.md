@@ -19,7 +19,7 @@
   </code></pre>
       </li>
       <li>
-        <p>Once the server is running, open your web browser and go to:</p>
+        <p>:</p>
         <pre><code> https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/
   </code></pre>
         <p>You can now enjoy the project running on your local server.</p>
