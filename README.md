@@ -9,10 +9,8 @@
       </li>
       <li>
         <p>Calculator’s demo link:</p>
-       <li>
-        <a href=" https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/" target="_new"
-          >Calculator’s demo</a>
-      </li>
+        <pre><code> https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/
+  </code></pre>
       
  </li>
     <h3>First step’s Twitch presentaion</h3>
