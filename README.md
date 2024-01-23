@@ -13,7 +13,7 @@
   </code></pre>
       
  </li>
-    <h2>First step’s Twitch presentaion</h2>
+    <h3>First step’s Twitch presentaion</h3>
        <li>
         <a href=" Basic Layout - Introduction to JS" target="_new"
           >Watch the video</a
