@@ -9,15 +9,16 @@
       </li>
       <li>
         <p>Calculator’s demo link:</p>
-        <pre><code> https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/
-  </code></pre>
+       <li>
+        <a href=" https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/" target="_new"
+          >Calculator’s demo</a>
+      </li>
       
  </li>
     <h3>First step’s Twitch presentaion</h3>
        <li>
         <a href=" Basic Layout - Introduction to JS" target="_new"
-          >Watch the video</a
-        >
+          >Watch the video</a>
       </li>
 
 </ol>
