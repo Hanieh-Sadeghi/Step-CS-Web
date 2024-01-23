@@ -4,7 +4,7 @@
 <ol>
   <li>
         <p>My Calculator's GitHub link:</p>
-        <pre><code>git clone https://github.com/Hanieh-Sadeghi/Calculator-windows10-cs_internship.git
+        <pre><code>https://github.com/Hanieh-Sadeghi/Calculator-windows10-cs_internship.git
   </code></pre>
       </li>
       <li>
@@ -12,8 +12,7 @@
         <pre><code> https://hanieh-sadeghi.github.io/Calculator-windows10-cs_internship/
   </code></pre>
       
-</li>
-    </ol>
+ </li>
     <h2>First step’s Twitch presentaion</h2>
     <ul>
       <li>
