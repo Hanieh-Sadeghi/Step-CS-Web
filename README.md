@@ -15,7 +15,7 @@
  </li>
     <h3>First step’s Twitch presentaion</h3>
        <li>
-        <a href=" Basic Layout - Introduction to JS" target="_new"
+        <a href="https://youtu.be/15FAF61bzqs?si=3YpMcLvYpFFmQCd-" target="_new"
           >Watch the video</a>
       </li>
 
