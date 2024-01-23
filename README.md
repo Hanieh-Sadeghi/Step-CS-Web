@@ -14,11 +14,10 @@
       
  </li>
     <h2>First step’s Twitch presentaion</h2>
-    <ul>
-      <li>
+       <li>
         <a href=" Basic Layout - Introduction to JS" target="_new"
           >Watch the video</a
         >
       </li>
-    </ul>
+
 </ol>
