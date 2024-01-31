@@ -18,5 +18,7 @@
         <a href="https://youtu.be/15FAF61bzqs?si=3YpMcLvYpFFmQCd-" target="_new"
           >Watch the video</a>
       </li>
-
+<p>
+In Step 2, I delved into the study of JavaScript, gaining a solid introduction and deepening my understanding through practical coding. Simultaneously, I focused on creating responsive CSS. Integrating this newfound knowledge, I enhanced my Step 1 calculator project with responsive CSS components.
+</p>
 </ol>
