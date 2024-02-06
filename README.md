@@ -78,3 +78,5 @@ In Step 3, I delved into the study of JavaScript, gaining a solid introduction a
             >Watch the video Step 3</a>
         </li>
   </ol>
+
+<h2>Step 4. Intermediate JS (II)</h2>
