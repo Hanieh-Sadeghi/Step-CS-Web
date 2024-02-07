@@ -47,7 +47,7 @@ In Step 2, I delved into the study of JavaScript, gaining a solid introduction a
 <h2>Step 3. Intermediate JS (I)</h2>
 
 <p>
-In Step 3, I delved into the study of JavaScript, gaining a solid introduction and deepening my understanding through practical coding. Simultaneously, I focused on creating responsive CSS. Integrating this newfound knowledge, I enhanced my Step 1 calculator project with responsive CSS components.
+In Step 3, I delved into the study of JavaScript, gaining a solid introduction and deepening my understanding through practical coding. Simultaneously, I focused on creating responsive CSS. Integrating this newfound knowledge, I enhanced my Step 1 calculator project with responsive JavaScript components.
 </p>
 
 <ol>
@@ -78,5 +78,8 @@ In Step 3, I delved into the study of JavaScript, gaining a solid introduction a
             >Watch the video Step 3</a>
         </li>
   </ol>
+</br>
 
 <h2>Step 4. Intermediate JS (II)</h2>
+
+<p>...</p>
