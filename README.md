@@ -1,5 +1,5 @@
-    <h1>courses cs-internshi </h1>
-<h2>01-BasicLayout-IntroJS </h2>
+<h1>courses cs-internshi </h1>
+<h2>Step 1. BasicLayout-IntroJS </h2>
     <p>In Step 1, I delved into the study of 'HTML' and 'CSS,' covering topics such as Grid and Flex in CSS, along with an introduction to JavaScript. In this step, I undertook a project to design a Windows 10 calculator, and I will share its demo and GitHub link with you.</p>
 <ol>
   <li>
