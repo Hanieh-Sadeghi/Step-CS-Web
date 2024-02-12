@@ -110,3 +110,6 @@
       </li>
 </ol>
 
+
+<h2>Step 5. Design Pattern</h2>
+
