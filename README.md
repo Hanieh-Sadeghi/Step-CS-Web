@@ -113,3 +113,5 @@
 
 <h2>Step 5. Design Pattern</h2>
 
+<p>During the fifth step, I delved into the MVVM (Model-View-ViewModel) design pattern, further expanding my understanding of JavaScript modules and concepts such as 'this' and 'that' in JavaScript, as well as object-oriented programming principles. Additionally, I familiarized myself with Knockout.js, which presented a significant learning challenge due to the scarcity of documentation and resources available. Despite this, I successfully developed a To-Do app using Knockout.js, demonstrating my ability to overcome obstacles and learn new technologies independently. Furthermore, I engaged in exercises on the Exercism website, honing my problem-solving skills and reinforcing my understanding of JavaScript concepts.
+</p>
