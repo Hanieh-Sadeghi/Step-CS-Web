@@ -133,3 +133,5 @@
           >Watch the video Step 4</a>
       </li>
 </ol>
+
+<h2>Step 6. Http - Storage</h2>
