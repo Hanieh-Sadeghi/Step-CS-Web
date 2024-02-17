@@ -134,4 +134,4 @@
       </li>
 </ol>
 
-<h2>Step 6. Http - Storage</h2>
+<h3>Step 6. Http - Storage</h3>
