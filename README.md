@@ -133,4 +133,4 @@ Additionally, I undertook the task of revamping our Calculator using SASS, a tas
       </li>
 </ol>
 
-<h2>Step 6. Http - Storage</h2>
+<h3>Step 6. Http - Storage</h3>
