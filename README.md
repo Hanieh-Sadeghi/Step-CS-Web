@@ -133,4 +133,11 @@ Additionally, I undertook the task of revamping our Calculator using SASS, a tas
       </li>
 </ol>
 
-<h3>Step 6. Http - Storage</h3>
+<h2>Step 6. Http - Storage</h2>
+<p>During the fifth step, I embarked on an in-depth exploration of various JavaScript topics and fundamental web concepts. This included studying key chapters from the "You Don't Know JS" book series, specifically focusing on mixing "class" objects, prototypes, and ES6 classes. Additionally, I deepened my understanding of HTTP basics, communication with backend systems, client-side storage mechanisms, APIs, and the distinctions between frontend, backend, and web servers.
+
+In practical application, I enhanced the client-side functionality of the Todo App by implementing automatic state storage using client-side storage mechanisms. Leveraging GitHub for version control, I published the updated app on my jsFiddle account. Furthermore, I expanded the Todo App's capabilities by adding functionalities for uploading and downloading states from the server, again utilizing GitHub for source control.
+
+To solidify my JavaScript skills, I tackled the "Sum Of Multiples" exercise on Exercism.org, ensuring all available tests in the spec file were successfully executed. I also diligently completed lessons on TypingClub.com up to lesson 316, aiming for a 5-star rating on each lesson.
+
+Moreover, I pursued further understanding of HTTP by exploring at least five additional online resources, carefully selected to supplement my learning journey. Each chosen resource was evaluated based on its comprehensiveness, relevance, and credibility in deepening my understanding of HTTP fundamentals. Additionally, I strived to achieve the Critic badge on StackOverflow, demonstrating my commitment to contributing valuable insights and knowledge-sharing within the developer community. Throughout these endeavors, GitHub served as my primary platform for version control, ensuring a streamlined and collaborative approach to my learning and development efforts.</p>
