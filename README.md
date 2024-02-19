@@ -134,6 +134,7 @@ Additionally, I undertook the task of revamping our Calculator using SASS, a tas
 </ol>
 
 <h2>Step 6. Http - Storage</h2>
+
 <p>During the fifth step, I embarked on an in-depth exploration of various JavaScript topics and fundamental web concepts. This included studying key chapters from the "You Don't Know JS" book series, specifically focusing on mixing "class" objects, prototypes, and ES6 classes. Additionally, I deepened my understanding of HTTP basics, communication with backend systems, client-side storage mechanisms, APIs, and the distinctions between frontend, backend, and web servers.
 
 In practical application, I enhanced the client-side functionality of the Todo App by implementing automatic state storage using client-side storage mechanisms. Leveraging GitHub for version control, I published the updated app on my jsFiddle account. Furthermore, I expanded the Todo App's capabilities by adding functionalities for uploading and downloading states from the server, again utilizing GitHub for source control.
@@ -141,3 +142,21 @@ In practical application, I enhanced the client-side functionality of the Todo A
 To solidify my JavaScript skills, I tackled the "Sum Of Multiples" exercise on Exercism.org, ensuring all available tests in the spec file were successfully executed. I also diligently completed lessons on TypingClub.com up to lesson 316, aiming for a 5-star rating on each lesson.
 
 Moreover, I pursued further understanding of HTTP by exploring at least five additional online resources, carefully selected to supplement my learning journey. Each chosen resource was evaluated based on its comprehensiveness, relevance, and credibility in deepening my understanding of HTTP fundamentals. Additionally, I strived to achieve the Critic badge on StackOverflow, demonstrating my commitment to contributing valuable insights and knowledge-sharing within the developer community. Throughout these endeavors, GitHub served as my primary platform for version control, ensuring a streamlined and collaborative approach to my learning and development efforts.</p>
+
+
+
+
+
+<h2>Step 7. Security</h2>
+
+<p>In the seventh, I delved into JavaScript types, values, and native objects through dedicated chapters from the "You Don't Know JS" book series. Additionally, I explored various methods of authenticating web applications, a pivotal aspect of contemporary web development.
+
+Putting theory into practice, I revamped the Todo App to incorporate a robust authentication system, introducing 'Sign up' and 'Sign in' pages to ensure secure access. Authentication was enforced across all HTTP requests, bolstering data security. Furthermore, I extended functionality to store app states separately for each user, catering to both authenticated and anonymous users.
+
+Moreover, I integrated a dynamic header into the Todo App, showcasing the current user's name and offering intuitive navigation options for signing up, signing in, and logging out. Button visibility adapted dynamically based on the app's status, enhancing user interaction.
+
+To sharpen my JavaScript prowess, I tackled Exercism.org exercises, meticulously ensuring the successful execution of all available tests. GitHub remained pivotal for version control and collaboration.
+
+Simultaneously, I honed my typing skills through TypingClub.com lessons, striving for excellence with a 5-star rating on each lesson. My ambition extended to achieving the Teacher badge on StackOverflow, signaling expertise and contributions to the developer community.
+
+Furthermore, I actively sought out diverse resources on web authentication, selecting five credible sources to deepen my knowledge. These chosen resources were thoughtfully shared on Twitter and LinkedIn to enrich the wider developer community's understanding. Throughout these endeavors, GitHub played an indispensable role in facilitating version control and collaborative efforts.</p>
