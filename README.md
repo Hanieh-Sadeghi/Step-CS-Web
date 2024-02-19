@@ -79,8 +79,7 @@
 <h2>Step 4. Intermediate JS (II)</h2>
 
 <p>In the Fourth step, the focus shifted towards mastering SASS and LESS, two powerful CSS preprocessors, while delving deeper into JavaScript concepts such as hoisting and scope closures. During this stage, I leveraged this newfound knowledge to develop a comprehensive To-Do App equipped with functionalities enabling users to categorize tasks as "all," "active," or "complete," thereby enhancing its usability and versatility.
-
-  Additionally, I undertook the task of revamping our Calculator using SASS, a task that not only improved its aesthetic appeal but also allowed for more efficient and maintainable styling.</p>
+Additionally, I undertook the task of revamping our Calculator using SASS, a task that not only improved its aesthetic appeal but also allowed for more efficient and maintainable styling.</p>
 <ol>
   <li>
         <p>My Calculator's GitHub link:</p>
