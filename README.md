@@ -143,8 +143,47 @@ To solidify my JavaScript skills, I tackled the "Sum Of Multiples" exercise on E
 
 Moreover, I pursued further understanding of HTTP by exploring at least five additional online resources, carefully selected to supplement my learning journey. Each chosen resource was evaluated based on its comprehensiveness, relevance, and credibility in deepening my understanding of HTTP fundamentals. Additionally, I strived to achieve the Critic badge on StackOverflow, demonstrating my commitment to contributing valuable insights and knowledge-sharing within the developer community. Throughout these endeavors, GitHub served as my primary platform for version control, ensuring a streamlined and collaborative approach to my learning and development efforts.</p>
 
+<h3>Running the Project</h3>
+<p>To run this project locally, follow these steps:</p>
+<ol>
+    <li>
+        <p>
+            Clone the project repository to your local machine using the
+            following command:
+        </p>
+        <pre><code>git clone https://github.com/Hanieh-Sadeghi/Todo-App-Express.git
+</code></pre>
+    </li>
+    <li>
+        <p>
+            Start the Node.js server by running the following command in your
+            terminal:
+        </p>
+        <pre><code>node server/server.js
+</code></pre>
+    </li>
+    <li>
+        <p>Once the server is running, open your web browser and go to:</p>
+        <pre><code>http://localhost:3000
+</code></pre>
+        <p>You can now enjoy the project running on your local server.</p>
+    </li>
+</ol>
+<h2>YouTube Showcase</h2>
+<ul>
+    <li>
+        <a href="https://youtu.be/xnofAd5YAZg?si=-RUunNUlfZlTfDlF" target="_new"
+        >Watch the video</a
+        >
+    </li>
 
-
+ </li>
+    <h3>step’s Twitch presentaion</h3>
+       <li>
+        <a href="https://youtu.be/OmSgBmri_Ic?si=Cry-Fbwg0yv_TthW" target="_new"
+          >Watch the video Step 6</a>
+</li>
+</ul>
 
 
 <h2>Step 7. Security</h2>
