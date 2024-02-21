@@ -199,3 +199,28 @@ To sharpen my JavaScript prowess, I tackled Exercism.org exercises, meticulously
 Simultaneously, I honed my typing skills through TypingClub.com lessons, striving for excellence with a 5-star rating on each lesson. My ambition extended to achieving the Teacher badge on StackOverflow, signaling expertise and contributions to the developer community.
 
 Furthermore, I actively sought out diverse resources on web authentication, selecting five credible sources to deepen my knowledge. These chosen resources were thoughtfully shared on Twitter and LinkedIn to enrich the wider developer community's understanding. Throughout these endeavors, GitHub played an indispensable role in facilitating version control and collaborative efforts.</p>
+
+    <ol>
+      <li>
+        <p>
+          Clone the project repository to your local machine using the following
+          command:
+        </p>
+        <pre><code>git clone https://github.com/Hanieh-Sadeghi/Todo-App-Login.git
+</code></pre>
+      </li>
+      <li>
+        <p>
+          Start the Node.js server by running the following command in your
+          terminal:
+        </p>
+        <pre><code> nodemon server/server.js
+</code></pre>
+      </li>
+      <li>
+        <p>Once the server is running, open your web browser and go to:</p>
+        <pre><code>http://localhost:3000
+</code></pre>
+        <p>You can now enjoy the project running on your local server.</p>
+      </li>
+    </ol>
