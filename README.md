@@ -224,3 +224,5 @@ Furthermore, I actively sought out diverse resources on web authentication, sele
         <p>You can now enjoy the project running on your local server.</p>
       </li>
     </ol>
+
+<h2>Step 8. Basic TS</h2>
