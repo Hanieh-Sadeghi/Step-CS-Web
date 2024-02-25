@@ -200,7 +200,7 @@ Simultaneously, I honed my typing skills through TypingClub.com lessons, strivin
 
 Furthermore, I actively sought out diverse resources on web authentication, selecting five credible sources to deepen my knowledge. These chosen resources were thoughtfully shared on Twitter and LinkedIn to enrich the wider developer community's understanding. Throughout these endeavors, GitHub played an indispensable role in facilitating version control and collaborative efforts.</p>
 
-    <ol>
+  <ol>
       <li>
         <p>
           Clone the project repository to your local machine using the following
